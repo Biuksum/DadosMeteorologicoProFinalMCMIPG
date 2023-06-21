@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_screen"
-
+    android:padding="16dp"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -65,7 +65,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:maxLines="1"
-                        android:hint="City Name"
+                        android:hint="@string/nome_da_cidade"
                         android:lines="1" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -93,6 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:text="12C"
                     android:gravity="center"
                     android:textSize="65sp" />
 
@@ -114,7 +115,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="CITY CODE"
+                            android:text="CÓDIGO DA CIDADE"
                             android:textSize="23sp" />
 
                         <TextView
@@ -122,7 +123,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="CITY NAME"
+                            android:text="NOME DA CIDADE"
                             android:textSize="17sp" />
 
                     </LinearLayout>
@@ -148,25 +149,25 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!--Nem-->
+                        <!--Humidade-->
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Humidity" />
+                            android:text="Humidade" />
 
-                        <!--Rüzgar Hızı-->
+                        <!--Velocidade do vento-->
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Wind Speed" />
+                            android:text="Velocidade do vento" />
 
-                        <!--Enlem-->
+                        <!--Latitude-->
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Latitude" />
 
-                        <!--Boylam-->
+                        <!--Longitude-->
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
